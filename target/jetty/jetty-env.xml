@@ -1,0 +1,113 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+ 
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>logName</Arg>
+		<Arg type="java.lang.String">myPortal</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>logFilePrefix</Arg>
+		<Arg type="java.lang.String">c:\\my_new_portal\\myPortalProject\\myPortal\\target\\log_myPortal</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>logLevel</Arg>
+		<Arg type="java.lang.String">INFO</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+
+	
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>logFileSize</Arg>
+		<Arg type="java.lang.String">200000</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>logFilesCount</Arg>
+		<Arg type="java.lang.String">10</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+	
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>configVersion</Arg>
+		<Arg type="java.lang.String">production</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>applicationBaseURL</Arg>
+		<Arg type="java.lang.String">http://localhost:8080/myPortal/</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>resourceRootURL</Arg>
+		<Arg type="java.lang.String">/myPortal/resources/</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+	
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>protectedResourceRootURL</Arg>
+		<Arg type="java.lang.String">/myPortal/protected/</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>resourceDiskRootFolder</Arg>
+		<Arg type="java.lang.String">c:\\my_new_portal\\myPortalProject\\myPortal\\src\\main\\webapp\\resources</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+	
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>protectedResourceDiskRootFolder</Arg>
+		<Arg type="java.lang.String">c:\\my_new_portal\\myPortalProject\\myPortal\\src\\main\\webapp\\protected</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>	
+
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>indexDiskRootFolder</Arg>
+		<Arg type="java.lang.String">c:\\my_new_portal\\myPortalProject\\myPortal\\target\\temp\\indexdir</Arg>
+		<Arg type="boolean">false</Arg>
+	</New>
+	
+	<New id="portDataSource" class="org.eclipse.jetty.plus.jndi.Resource">
+		<Arg>java:comp/env/jdbc/portDataSource</Arg>
+		<Arg>
+			<New class="org.apache.commons.dbcp.BasicDataSource">
+				<Set name="driverClassName">org.postgresql.Driver</Set>
+				<Set name="url">jdbc:postgresql://localhost:5432/myPortalPort</Set>
+				<Set name="username">postgres</Set>
+				<Set name="password">ToT06081</Set>
+			</New>
+		</Arg>
+	</New>
+	
+	<New id="servDataSource" class="org.eclipse.jetty.plus.jndi.Resource">
+		<Arg>java:comp/env/jdbc/servDataSource</Arg>
+		<Arg>
+			<New class="org.apache.commons.dbcp.BasicDataSource">
+				<Set name="driverClassName">org.postgresql.Driver</Set>
+				<Set name="url">jdbc:postgresql://localhost:5432/myPortalServ</Set>
+				<Set name="username">postgres</Set>
+				<Set name="password">ToT06081</Set>
+			</New>
+		</Arg>
+	</New>
+
+</Configure>

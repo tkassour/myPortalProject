@@ -1,0 +1,274 @@
+/*===========================
+DASHBOARD UPPER WRAP
+//===========================*/		
+
+#centralContainer{
+	background:#F7F7F7;
+}
+
+/*===========================
+DASHBOARD LEFT WRAP
+//===========================*/		
+
+#upperwrap{
+	width: 100%;
+}
+
+
+#leftwrap{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+
+#tit_left{
+	font-size: 23px;
+	/*font-family: Gotham Rounded Medium;*/
+	/*color: #1e386c;*/
+	color: #07765e;
+	text-align: center;
+	margin-bottom: 12px;
+	margin-left: 180px;
+	background-color: #d3e03b;
+	font-size: 15px; 
+	font-weight: bold;
+	valign: center;
+	line-height: 48px;
+	width: 290px;
+	height: 48px;
+}
+
+#tripsSummary
+{
+	background: url("../../static/img/gauge_bkgr.png") no-repeat scroll 49px 10px rgba(0, 0, 0, 0);
+	width: 620px;
+	height: 300px;
+}
+
+.itemLeft {
+    display: block;
+    margin: 7px 0 25px;
+}
+
+.itemRight {
+    display: block;
+    margin: 7px 0 25px;
+}
+
+.item_text {
+    text-align: center;
+    width: 85px;
+}
+
+.item_text .item_value {
+    width: 80px;
+    height: 36px;
+}
+
+.item_tit{
+	color: rgb(111, 121, 124);
+	font-size: 16px;
+	font-family: Gotham Rounded Book;
+	white-space: nowrap;
+	width:80px;
+}
+
+.item_value{
+	font-family: Gotham Rounded Medium;
+	font-size: 26px;
+	font-weight: 500;
+	/*color: rgba(86, 163, 206,0.9);*/
+	color: #4e4230;
+	text-align: center;
+}
+
+.itemLeft > img {
+    float: right;
+   
+    position: relative;
+    top: -55px;
+}
+
+#score_heart {
+    left: 27px;
+}
+
+#score_trip {
+    left: 18px;
+}
+
+.itemRight > img {
+    float: right;
+    position: relative;
+    top: -55px;
+}
+
+#score_miles{
+	right:129px;
+}
+
+#score_tank{
+	right:119px;
+}
+
+#score_days{
+	right:114px;
+}
+
+#score_hours{
+	right:127px;
+}
+
+.misura{
+	font-family: Gotham Rounded Medium;
+	font-size: 25px;
+    color: rgb(24, 65, 120);
+	margin-left: -4px;
+}
+
+#score{
+	padding: 13px 0 0 23px;
+}
+
+#progress{
+	float: left;
+	margin: 10px 0 0 4px;
+}
+
+#leftProg{
+	float: left;
+	width: 125px;
+	margin: 22px 0 0 30px;
+}
+
+#rightProg{
+	float: right;
+	width: 120px;
+	margin-top: 22px;
+}
+
+.jCProgress{
+	padding: 0px 0px 10px 10px;
+}
+ 
+.jCProgress > div.percent{
+     font-family: Gotham Rounded Medium;
+     font-size: 90px;
+     /*color: rgb(24, 65, 120); */
+     color: #60c659;
+     width: 260px;
+     position: absolute;
+     padding: 65px 0 0 10px;
+     text-align: center;
+}
+
+/*===========================
+DASHBOARD RIGHT WRAP
+//===========================*/	
+#rightwrap{
+	display: block;
+	float: right;
+}  
+
+#tit_right{
+	font-size: 23px;
+	font-family: Gotham Rounded Medium;
+	/*color: #1e386c;*/
+	color: #4e4230;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+#evtsSummary{
+	width: 620px;
+	height: 300px;
+}
+
+.dettagli{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    float: left;
+    height: 140px;
+    margin: 0 0 20px 20px;
+    padding: 0 5px;
+    width: 280px;
+    font-size: 15px;
+}
+
+.evt_img{
+	margin: 5px auto 0;
+	display: block;
+}
+
+.tit_event{
+	color: rgb(19, 43, 51);
+	font-family: Gotham Rounded Book;
+	font-size: 130%;
+	margin-top: -5px;
+	text-align: center;
+}
+
+.numero{
+	font-size: 130%;
+	text-align: center;
+	color: #2B5B74;
+	font-family: Gotham Rounded Medium;
+	margin-bottom: -5px;
+	padding: 6px 0px;
+}
+
+#twitter_bar {
+    height: 28px;
+	margin: 0 auto;
+    width: 1280px;
+}
+
+#bottom_section{
+	width:auto;
+	background-color: #e8e8e8;
+	margin:0 auto;
+}
+
+.footer_default {
+    margin-top: 0px;
+}
+
+#tw_header > img {
+    display: block;
+    margin: 0 auto;
+    padding: 3px 7px;
+    width: 20px;
+}
+
+#tw_header {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding: 2px;
+    width: 30px;
+}
+
+/*===========================
+ALLERTS
+//===========================*/
+
+.allert_spec_img{
+	display:block;
+	margin:0 auto;
+}
+
+.allert_img {
+    float: right;
+    width: 35px;
+    margin-left: -40px !important;
+    padding:10px 0;
+    cursor:pointer;
+}
+r;
+}
+}
+;
+}
+r;
+}
+}

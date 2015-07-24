@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+Thu Jul 16 15:50:39 CDT 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-014e-98a2-210f-000006543908 
+on database directory C:\my_new_portal\myPortalProject\myPortal\target\derby\production\myPortalPort  with class loader ClassRealm[plugin>org.mortbay.jetty:jetty-maven-plugin:7.6.16.v20140903, parent: sun.misc.Launcher$AppClassLoader@79f1a8a] 
+Loaded from file:/C:/Users/toufik/.m2/repository/org/apache/derby/derby/10.9.1.0/derby-10.9.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b15
+user.dir=c:\my_new_portal\myPortalProject\myPortal
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jul 16 15:50:41 CDT 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance 856dc0f6-014e-98a2-210f-000006543908 
+on database directory C:\my_new_portal\myPortalProject\myPortal\target\derby\production\myPortalServ  with class loader ClassRealm[plugin>org.mortbay.jetty:jetty-maven-plugin:7.6.16.v20140903, parent: sun.misc.Launcher$AppClassLoader@79f1a8a] 
+Loaded from file:/C:/Users/toufik/.m2/repository/org/apache/derby/derby/10.9.1.0/derby-10.9.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b15
+user.dir=c:\my_new_portal\myPortalProject\myPortal
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

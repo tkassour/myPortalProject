@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context path="/myPortal" docBase="./myPortal" debug="1" reloadable="false">
+	
+	<Environment name="logName" value="myPortal" type="java.lang.String" override="false" />
+	<Environment name="logFilePrefix" value="c:\\my_new_portal\\myPortalProject\\myPortal\\target\\log_myPortal" type="java.lang.String" override="false" />
+	<Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
+	<Environment name="logFileSize" value="200000" type="java.lang.String" override="false" />
+	<Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
+	
+	<Environment name="configVersion" value="production" type="java.lang.String" override="false" />
+	
+	<Environment name="applicationBaseURL" value="http://localhost:8080/myPortal/" type="java.lang.String" override="false" />
+	<Environment name="resourceRootURL" value="/myPortal/resources/" type="java.lang.String" override="false" />
+	<Environment name="protectedResourceRootURL" value="/myPortal/protected/" type="java.lang.String" override="false" />
+	
+	<Environment name="resourceDiskRootFolder" value="c:\\my_new_portal\\myPortalProject\\myPortal\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
+	<Environment name="protectedResourceDiskRootFolder" value="c:\\my_new_portal\\myPortalProject\\myPortal\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
+	
+	<Environment name="indexDiskRootFolder" value="c:\\my_new_portal\\myPortalProject\\myPortal\\target\\temp\\indexdir" type="java.lang.String" override="false" />
+	
+	<Resource name="jdbc/portDataSource" auth="Container" 
+		type="javax.sql.DataSource" driverClassName="org.postgresql.Driver" 
+		maxActive="8" maxIdle="4" 
+		username="postgres" password="ToT06081" 
+		url="jdbc:postgresql://localhost:5432/myPortalPort" />
+	
+	<Resource name="jdbc/servDataSource" auth="Container" 
+		type="javax.sql.DataSource" driverClassName="org.postgresql.Driver" 
+		maxActive="8" maxIdle="4" 
+		username="postgres" password="ToT06081" 
+		url="jdbc:postgresql://localhost:5432/myPortalServ" />
+	
+</Context>

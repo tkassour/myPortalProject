@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.plugin.classpath"/>
+  <if>
+    <available file="src/main/webapp/WEB-INF/aps/jsp/internalservlet/api" type="dir"/>
+    <then>
+      <property name="core-webapp-cant-overwrite" value="true"/>
+    </then>
+  </if>
+</target>
+</project>

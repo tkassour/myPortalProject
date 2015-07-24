@@ -1,0 +1,7 @@
+<project name="myPortal" default="WAR-build" basedir=".">
+	<description>myPortal - Build file</description>
+
+	<import file="buildProperties.xml"/>
+	<import file="buildTasks.xml"/>
+
+</project>
