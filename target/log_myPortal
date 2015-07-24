@@ -10,3 +10,109 @@
 2015-07-24 15:38:43.041 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
 2015-07-24 15:38:43.050 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
 2015-07-24 15:38:43.054 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:39:14.886 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:39:14.887 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'CMS'
+2015-07-24 15:39:14.905 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:39:14.905 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Avatar'
+2015-07-24 15:39:14.912 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:39:14.912 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Blog'
+2015-07-24 15:39:14.924 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:39:14.924 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Content Feedback'
+2015-07-24 15:39:14.933 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:39:14.933 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'My Portal'
+2015-07-24 15:39:53.068 - INFO  -  com.agiletec.aps.system.common.entity.loader.ExtraAttributeRolesWrapper - Added new attribute role : jpblog:date - The Attribute that contains post date
+2015-07-24 15:39:53.068 - INFO  -  com.agiletec.aps.system.common.entity.loader.ExtraAttributeRolesWrapper - Added new attribute role : jpblog:author - The Attribute that contains post author
+2015-07-24 15:39:53.068 - INFO  -  com.agiletec.aps.system.common.entity.loader.ExtraAttributeRolesWrapper - Added new attribute role : jpblog:title - The Attribute that contains post title
+2015-07-24 15:39:53.068 - INFO  -  com.agiletec.aps.system.common.entity.loader.ExtraAttributeRolesWrapper - Added new attribute role : jpblog:body - The Attribute that contains the post body
+2015-07-24 15:39:55.382 - WARN  -  org.apache.struts2.components.ServletUrlRenderer - No configuration found for the specified action: '/do/jacms/Content/search.action' in namespace: '/do/jacms/Content'. Form action defaulting to 'action' attribute's literal value.
+2015-07-24 15:39:56.213 - WARN  -  com.agiletec.apsadmin.system.TreeNodeBaseActionHelper - No selected nodes
+2015-07-24 15:39:56.752 - WARN  -  org.apache.struts2.components.ServletUrlRenderer - No configuration found for the specified action: '/do/jacms/Content/search.action' in namespace: '/do/jacms/Content'. Form action defaulting to 'action' attribute's literal value.
+2015-07-24 15:40:13.142 - WARN  -  com.agiletec.apsadmin.system.TreeNodeBaseActionHelper - No selected nodes
+2015-07-24 15:40:19.642 - WARN  -  com.agiletec.apsadmin.system.TreeNodeBaseActionHelper - No selected nodes
+2015-07-24 15:40:26.727 - INFO  -  com.agiletec.plugins.jacms.apsadmin.content.ContentAction - Saving content ANN82 - Description: 'Sample - Announcement 5' - User: admin
+2015-07-24 15:40:26.991 - WARN  -  org.apache.struts2.components.ServletUrlRenderer - No configuration found for the specified action: '/do/jacms/Content/search.action' in namespace: '/do/jacms/Content'. Form action defaulting to 'action' attribute's literal value.
+2015-07-24 15:40:27.092 - WARN  -  com.agiletec.apsadmin.system.TreeNodeBaseActionHelper - No selected nodes
+2015-07-24 15:40:27.143 - WARN  -  org.apache.struts2.components.ServletUrlRenderer - No configuration found for the specified action: '/do/jacms/Content/search.action' in namespace: '/do/jacms/Content'. Form action defaulting to 'action' attribute's literal value.
+2015-07-24 15:42:05.522 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:05.522 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'CMS'
+2015-07-24 15:42:05.539 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:05.539 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Avatar'
+2015-07-24 15:42:05.543 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:05.543 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Blog'
+2015-07-24 15:42:05.552 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:05.552 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Content Feedback'
+2015-07-24 15:42:05.558 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:05.558 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'My Portal'
+2015-07-24 15:42:11.957 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:11.957 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'CMS'
+2015-07-24 15:42:11.971 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:11.971 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Avatar'
+2015-07-24 15:42:11.976 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:11.976 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Blog'
+2015-07-24 15:42:11.986 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:11.986 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Content Feedback'
+2015-07-24 15:42:11.990 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:11.990 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'My Portal'
+2015-07-24 15:42:15.078 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:15.078 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'CMS'
+2015-07-24 15:42:15.097 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:15.097 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Avatar'
+2015-07-24 15:42:15.103 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:15.103 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Blog'
+2015-07-24 15:42:15.113 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:15.113 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Content Feedback'
+2015-07-24 15:42:15.118 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:15.118 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'My Portal'
+2015-07-24 15:42:25.458 - INFO  -  com.agiletec.apsadmin.admin.BaseAdminAction - Reload config started
+2015-07-24 15:42:25.945 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:42:25.949 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:42:25.957 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:42:25.962 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:42:25.968 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:42:25.971 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:42:25.978 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:42:25.981 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:42:25.996 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:42:25.999 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:42:30.620 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:30.620 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'CMS'
+2015-07-24 15:42:30.634 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:30.634 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Avatar'
+2015-07-24 15:42:30.647 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:30.647 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Blog'
+2015-07-24 15:42:30.665 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:30.665 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Content Feedback'
+2015-07-24 15:42:30.673 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:42:30.673 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'My Portal'
+2015-07-24 15:46:14.625 - INFO  -  com.agiletec.apsadmin.admin.BaseAdminAction - Reload config started
+2015-07-24 15:46:14.649 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:46:14.653 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:46:14.664 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:46:14.667 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:46:14.674 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:46:14.676 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:46:14.682 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:46:14.684 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:46:14.690 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:46:14.692 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:46:29.519 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:46:29.519 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'CMS'
+2015-07-24 15:46:29.530 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:46:29.530 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Avatar'
+2015-07-24 15:46:29.534 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:46:29.534 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Blog'
+2015-07-24 15:46:29.543 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:46:29.543 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'Content Feedback'
+2015-07-24 15:46:29.546 - WARN  -  org.apache.struts2.util.TextProviderHelper - The first TextProvider in the ValueStack (com.agiletec.apsadmin.portal.WidgetsViewerAction) could not locate the message resource with key '#pluginPropertyName'
+2015-07-24 15:46:29.546 - WARN  -  org.apache.struts2.util.TextProviderHelper - The default value expression '#pluginPropertyName' evaluated to 'My Portal'
+2015-07-24 15:50:25.699 - INFO  -  com.agiletec.apsadmin.admin.BaseAdminAction - Reload config started
+2015-07-24 15:50:25.719 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:50:25.721 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:50:25.728 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:50:25.731 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:50:25.739 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:50:25.741 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:50:25.748 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:50:25.751 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
+2015-07-24 15:50:25.758 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutDefDOM - Valid Shortcut definition : shortcuts.xml
+2015-07-24 15:50:25.760 - INFO  -  org.entando.entando.apsadmin.system.services.shortcut.ShortcutLoader - Loaded Shortcut definition by file shortcuts.xml
