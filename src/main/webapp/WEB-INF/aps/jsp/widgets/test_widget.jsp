@@ -17,7 +17,7 @@
 						
                     	<img class="evt_img" src="<wp:resourceURL/>static/img/hard_accelaration.png"/>
     					<div class="numero">0</div>
-                    	<div class="tit_event">Hard Acceleration</div>
+                    	<div class="tit_event">Hard Acceleration Test</div>
                     </div>
     				<div class="dettagli">
 						
